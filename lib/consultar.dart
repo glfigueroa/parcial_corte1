@@ -48,7 +48,11 @@ class MyEmployeeListPageState extends State<MyEmployeeList> {
                               style: new TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 14.0)),
-                          new Text("Definitiva: "+ snapshot.data[index].definitive.toString(),
+                          new Text("Acumulado: "+ snapshot.data[index].definitive.toString(),
+                              style: new TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 14.0)),
+                          new Text("Definitiva Total: "+ snapshot.data[index].definitiveGeneral.toString(),
                               style: new TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 14.0)),
